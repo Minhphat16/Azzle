@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azzle</title>
+
+    <!-- Font Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Custom CSS -->
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #F3EFE9;
+        }
+    </style>
+
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <header class="w-full py-5">
+        <div class="container mx-auto flex items-center justify-between">
+
+            <!-- Logo -->
+            <div class="flex items-center gap-2">
+                <span class="text-2xl font-bold">*</span>
+                <span class="text-xl font-semibold">Azzle</span>
+            </div>
+
+            <!-- Menu -->
+            <nav class="hidden md:flex items-center gap-10 text-[15px] font-medium">
+
+                <div class="relative group">
+    <button class="flex items-center gap-1">
+        Demo <i class="fa-solid fa-chevron-down text-sm"></i>
+    </button>
+
+    <!-- Dropdown menu -->
+    <ul class="absolute left-0 top-full mt-3 w-40 bg-white shadow-lg rounded-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 sub-menu">
+        <li><a href="/" class="block px-4 py-2 hover:bg-gray-100">Home 01</a></li>
+        <li><a href="/" class="block px-4 py-2 hover:bg-gray-100">Home 02</a></li>
+        <li><a href="/" class="block px-4 py-2 hover:bg-gray-100">Home 03</a></li>
+        <li><a href="/" class="block px-4 py-2 hover:bg-gray-100">Home 04</a></li>
+    </ul>
+</div>
+
+
+                <a href="#" >About</a>
+
+                <div class="relative group">
+                    <button class="flex items-center gap-1">
+                        Services <i class="fa-solid fa-chevron-down text-sm"></i>
+                    </button>
+                </div>
+
+                <div class="relative group">
+                    <button class="flex items-center gap-1">
+                        Pages <i class="fa-solid fa-chevron-down text-sm"></i>
+                    </button>
+                </div>
+
+                <a href="#" class="hover:text-blue-600">Contact</a>
+            </nav>
+
+            <!-- Right buttons -->
+            <div class="hidden md:flex items-center gap-4">
+                <a class="px-6 py-2 border border-gray-400 rounded-full font-semibold hover:border-black">Login</a>
+                <a class="px-6 py-2 bg-black text-white rounded-full font-semibold hover:bg-gray-800">Sign up free</a>
+            </div>
+
+            <!-- Mobile button -->
+            <button class="md:hidden text-3xl">☰</button>
+
+        </div>
+    </header>
+
+
+    <!-- ================= HERO SECTION ================= -->
+    <section class="container mx-auto pt-20 pb-32">
+
+        <div class="text-center max-w-6xl mx-auto">
+            <h1 class="text-[50px] md:text-[80px] font-bold leading-tight mb-6">
+
+                Simplify your SaaS solution with AI  
+                
+            </h1>
+
+            <p class="text-[22px] md:text-[20px] font-bold mb-8 max-w-xxl mx-auto">
+
+                Our AI SAAS tool is a cloud-based software delivery model. It helps businesses forecast demand for products and services and optimize inventory management and supply chain operations.
+            </p>
+
+            <div class="flex items-center justify-center gap-4">
+                <a class="px-8 py-3 bg-black text-white rounded-full text-lg font-semibold hover:bg-[#E65100] transition-colors duration-200 cursor-pointer">
+                    Get Started for free
+                <a class="px-8 py-3 bg-white text-black rounded-full border border-gray-400 text-lg font-semibold hover:bg-[#E65100] transition-colors duration-200 cursor-pointer">
+                    Learn more
+                </a>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="hero-img overflow-hidden round-2x1 bg-black jos" data-jos_animation="zoom" data-jos_once="1" data-jos_counter="1" data-jos_scrolldirection="down">
+        <section class="bg-white py-10">
+    <img 
+      src="./img/demo-ecommerce.webp" 
+      class="w-full max-w-[1100px] mx-auto rounded-2xl shadow-xl object-cover"
+    />
+    </div>
+
+    <div class="mt-6 lg:mt-10 xl:mt-14 mb-4 h-[1px] w-full bg-[#DBD6CF]"></div>
+
+
+
+    <div class="mx-auto mt-12 mb-12 max-w-[715px] text-center jos"
+     data-jos_once="1" data-jos_animation="fade-up" data-jos_counter="1" data-jos_scrolldirection="down">
+    <p class="text-lg">
+        Companies of all sizes trust us to find AI SaaS critical to their growth and innovation
+    </p>
+    
+
+        </div>
+
+        <section class="py-10 lg:py-16 xl:py-20 bg-[#F3EEE7]">
+    <div class="container mx-auto px-4">
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-10 items-center justify-center">
+
+            <div class="flex justify-center">
+                <img src="img/logo-sitemark.svg" alt="Sitemark" class="h-14 opacity-90">
+            </div>
+
+            <div class="flex justify-center">
+                <img src="img/logo-greenish.svg" alt="Greenish" class="h-14 opacity-90">
+            </div>
+
+            <div class="flex justify-center">
+                <img src="img/logo-luminous.svg" alt="Luminous" class="h-14 opacity-90">
+            </div>
+
+            <div class="flex justify-center">
+                <img src="img/logo-network.svg" alt="Network" class="h-14 opacity-90">
+            </div>
+
+            <div class="flex justify-center">
+                <img src="img/logo-umbrella.svg" alt="Umbrella" class="h-14 opacity-90">
+            </div>
+        </section>
+            
+    
+
+    <div class="global-container">
+    <div
+        class="mb-10 lg:mb-16 xl:mb-20 jos text-center"
+        data-jos_once="1"
+        data-jos_animation="fade-up"
+        data-jos_counter="1"
+        data-jos_scrolldirection="down"
+    >
+        <h2 class="text-3xl font-bold md:text-4xl lg:text-5xl text-left">
+            Core features that make it valuable
+        </h2>
+    </div>
+</div>
+
+<ul
+    class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 w-full gap-[2px] overflow-hidden rounded-[10px] border-2 border-black jos"
+    data-jos_once="1"
+    data-jos_animation="fade-up"
+    data-jos_counter="1"
+    data-jos_scrolldirection="down"
+>
+
+    <!-- Item 1 -->
+    <li class="group bg-white p-[30px] transition-all duration-300 ease-in-out hover:bg-black">
+        <div class="relative mb-9 h-[70px] w-[70px]">
+            <img src="/Azzle/img/service-icon-orange-1.svg"
+                width="70" height="70"
+                class="absolute left-0 top-0 h-full w-full opacity-0 transition-all duration-300 ease-linear group-hover:opacity-100">
+        </div>
+
+        <h3 class="mb-4 text-xl xl:text-2xl xxl:text-[28px] font-semibold group-hover:text-white">
+            <a href="/service-details">
+                Resource Flexibility
+            </a>
+        </h3>
+
+        <p class="mb-12 group-hover:text-white">
+            This is an excellent option for people & small businesses who are starting out.
+        </p>
+
+        <a class="relative inline-block h-[30px] w-[30px] duration-300" href="/service-details">
+            <img src="/Azzle/img/arrow-right-orange.svg"
+                class="absolute left-0 top-0 h-full w-full opacity-0 transition-all duration-300 ease-linear group-hover:opacity-100">
+        </a>
+    </li>
+
+    <!-- Item 2 -->
+    <li class="group bg-white p-[30px] transition-all duration-300 ease-in-out hover:bg-black">
+        <div class="relative mb-9 h-[70px] w-[70px]">
+            <img src="img/service-icon-orange-2.svg"
+                width="70" height="70"
+                class="absolute left-0 top-0 h-full w-full opacity-0 transition-all duration-300 ease-linear group-hover:opacity-100">
+        </div>
+
+        <h3 class="mb-4 text-xl xl:text-2xl xxl:text-[28px] font-semibold group-hover:text-white">
+            Managed Services
+        </h3>
+
+        <p class="mb-12 group-hover:text-white">
+            This is an excellent option for people & small businesses who are starting out.
+        </p>
+
+        <a class="relative inline-block h-[30px] w-[30px] duration-300" href="/service-details">
+            <img src="img/arrow-right-orange.svg"
+                class="absolute left-0 top-0 h-full w-full opacity-0 transition-all duration-300 ease-linear group-hover:opacity-100">
+        </a>
+    </li>
+
+    <!-- Item 3 -->
+    <li class="group bg-white p-[30px] transition-all duration-300 ease-in-out hover:bg-black">
+        <div class="relative mb-9 h-[70px] w-[70px]">
+            <img src="/Azzle/img/service-icon-orange-3.svg"
+                width="70" height="70"
+                class="absolute left-0 top-0 h-full w-full opacity-0 transition-all duration-300 ease-linear group-hover:opacity-100">
+        </div>
+
+        <h3 class="mb-4 text-xl xl:text-2xl xxl:text-[28px] font-semibold group-hover:text-white">
+            Web-Based Access
+        </h3>
+
+        <p class="mb-12 group-hover:text-white">
+            This is an excellent option for people & small businesses who are starting out.
+        </p>
+
+        <a class="relative inline-block h-[30px] w-[30px] duration-300" href="/service-details">
+            <img src="/Azzle/img/arrow-right-orange.svg"
+                class="absolute left-0 top-0 h-full w-full opacity-0 transition-all duration-300 ease-linear group-hover:opacity-100">
+        </a>
+    </li>
+
+    <!-- Item 4 -->
+    <li class="group bg-white p-[30px] transition-all duration-300 ease-in-out hover:bg-black">
+        <div class="relative mb-9 h-[70px] w-[70px]">
+            <img src="/Azzle/img/service-icon-orange-4.svg"
+                width="70" height="70"
+                class="absolute left-0 top-0 h-full w-full opacity-0 transition-all duration-300 ease-linear group-hover:opacity-100">
+        </div>
+
+        <h3 class="mb-4 text-xl xl:text-2xl xxl:text-[28px] font-semibold group-hover:text-white">
+            Resource Flexibility
+        </h3>
+
+        <p class="mb-12 group-hover:text-white">
+            This is an excellent option for people & small businesses who are starting out.
+        </p>
+
+        <a class="relative inline-block h-[30px] w-[30px] duration-300" href="/service-details">
+            <img src="/Azzle/img/arrow-right-orange.svg"
+                class="absolute left-0 top-0 h-full w-full opacity-0 transition-all duration-300 ease-linear group-hover:opacity-100">
+        </a>
+    </li>
+
+</ul>
+
+
+    </ul>
+
+
+    
+
+    <div class="global-container mt-20 ">
+    <div class="grid grid-cols-1 items-center gap-12 md:grid-cols-2 lg:gap-20 xl:gap-28 xxl:gap-32">
+
+        
+        <div class="order-2 overflow-hidden rounded-md md:order-1 jos pl-10"
+            data-jos_animation="fade-left"
+            data-jos_once="1"
+            data-jos_counter="1"
+            data-jos_scrolldirection="down">
+
+            <img src="/Azzle/img/content-image-1.jpg"
+                 alt="content-image-1"
+                 width="526"
+                 height="450"
+                 class="h-auto w-full" />
+        </div>
+
+      
+        <div class="order-1 md:order-2 jos"
+            data-jos_animation="fade-right"
+            data-jos_once="1"
+            data-jos_counter="1"
+            data-jos_scrolldirection="down">
+
+            <!-- Title -->
+            <div class="mb-6">
+                <h2 class="text-5xl md:text-6xl lg:text-7xl font-black leading-tight">
+    Accessible to a wider audience</h2>
+            </div>
+
+            <!-- Paragraphs -->
+            <div class="text-lg leading-[1.4] lg:text-[21px]">
+                <p class="mb-7 last:mb-0">
+                    Advanced AI capabilities accessible to a broader audience,
+                    including small & medium-sized businesses and individuals
+                    who may not have the resources or expertise to develop.
+                </p>
+                <p class="mb-7 last:mb-0">
+                    Advanced AI capabilities accessible to a broader audience,
+                    including small & medium-sized businesses and individuals
+                    who may not have the resources or expertise to develop.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+    <div class="pb-20 xl:pb-[150px]"></div>
+
+
+    <div class="global-container">
+    <div class="grid grid-cols-1 items-center gap-12 md:grid-cols-2 lg:gap-20 xl:gap-28 xxl:gap-32">
+
+        
+        <div
+            class="order-2 overflow-hidden rounded-md jos"
+            data-jos_animation="fade-left"
+            data-jos_once="1"
+            data-jos_counter="1"
+            data-jos_scrolldirection="down"
+        >
+            <img src="/Azzle/img/content-image-2.jpg"
+                 alt="content-image-2"
+                 width="526"
+                 height="450"
+                 class="h-auto w-full">
+        </div>
+        <div
+            class="order-1 jos pl-12"
+            data-jos_animation="fade-right"
+            data-jos_once="1"
+            data-jos_counter="1"
+            data-jos_scrolldirection="down"
+        >
+            <div class="mb-6">
+                <h2 class="text-3xl font-bold md:text-4xl lg:text-5xl">
+                    Providing quick deploy solutions
+                </h2>
+            </div>
+
+            <div class="text-lg leading-[1.4] lg:text-[21px]">
+                <p class="mb-7">
+                    Our AI SaaS solutions can be quickly deployed, enabling users
+                    to start benefiting from AI capabilities without lengthy
+                    setup and development times in fast-paced industries.
+                </p>
+
+                <ul class="flex flex-col gap-y-5 font-dmSans text-xl leading-tight tracking-tighter text-black lg:mt-12 lg:text-[28px]">
+                    <li class="flex items-start gap-x-3">
+                        <div class="mt-[2.5px] h-[30px] w-[30px]">
+                            <i class="fa fa-check"></i>
+                        </div>
+                        Ready-to-use AI capabilities system
+                    </li>
+
+                    <li class="flex items-start gap-x-3">
+                        <div class="mt-[2.5px] h-[30px] w-[30px]">
+                            <i class="fa fa-check"></i>
+                        </div>
+                        Users can quickly integrate AI features
+                    </li>
+
+                    <li class="flex items-start gap-x-3">
+                        <div class="mt-[2.5px] h-[30px] w-[30px]">
+                            <i class="fa fa-check"></i>
+                        </div>
+                        Time savings translate to cost savings
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+    <section class="funfact">
+    <div class="mx-auto max-w-[1500px] px-5">
+
+        <!-- GRID 2 COLUMNS -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 overflow-hidden rounded-[30px] bg-black lg:rounded-[50px]">
+
+            <!-- LEFT IMAGE -->
+            <div class="relative overflow-hidden rounded-[30px] lg:rounded-[50px] p-6 lg:p-10 flex items-center justify-center">
+                <img src="/Azzle/img/funfact-image.jpg"
+                     alt="funfact-image"
+                     class="max-w-[600px] w-full rounded-[20px]">
+
+                <!-- PLAY BUTTON -->
+                <a data-fslightbox="gallery"
+                   href="https://www.youtube.com/watch?v=3nQNiWdeH2Q"
+                   class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-[5]">
+
+                    <div class="relative flex h-[120px] w-[120px] items-center justify-center
+                                rounded-full border-[3px] border-white text-lg font-bold
+                                backdrop-blur-[2px] transition-all duration-300
+                                hover:bg-colorOrangyRed hover:text-white">
+                        Play
+
+                        <div class="absolute -z-[1] h-[110%] w-[110%]
+                                    animate-[ping_1.5s_ease-in-out_infinite]
+                                    rounded-full bg-gray-600 opacity-30">
+                        </div>
+                    </div>
+
+                </a>
+            </div>
+
+            <!-- RIGHT CONTENT -->
+            <div class="px-6 py-12 lg:px-12 lg:py-16">
+
+                <div class="mb-8 lg:mb-16 xl:mb-6">
+                    <h2 class="text-white text-3xl font-bold md:text-4xl lg:text-5xl">
+                        AI-powered that streamline tasks
+                    </h2>
+                </div>
+
+                <div class="text-left text-lg leading-[1.4] text-white lg:text-[21px]">
+                    <p class="mb-7">
+                        As your business grows or your AI SaaS needs change, you can
+                        easily adjust your subscription level to match those needs.
+                        This flexibility ensures that AI remains an asset.
+                    </p>
+                </div>
+
+                <div class="my-14 h-[1px] w-full bg-colorCodGray"></div>
+
+                <!-- NUMBERS -->
+                <ul class="flex flex-col justify-center gap-x-11 gap-y-8
+                           text-center sm:flex-row md:text-left xl:justify-normal xl:text-left xxl:gap-x-20">
+
+                    <li>
+                        <h3 class="text-5xl text-colorOrangyRed md:text-6xl lg:text-7xl xxl:text-[120px]">
+                            <span>92</span>%
+                        </h3>
+                        <span class="block text-lg text-white lg:text-[21px]">
+                            Customer service inquiries
+                        </span>
+                    </li>
+
+                    <li>
+                        <h3 class="text-5xl text-colorOrangyRed md:text-6xl lg:text-7xl xxl:text-[120px]">
+                            <span>75</span>%
+                        </h3>
+                        <span class="block text-lg text-white lg:text-[21px]">
+                            Using financial institutions
+                        </span>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+        <div class="pb-20 pt-20 xl:pb-[150px] xl-pt:[130px]"></div>
+        <section class="pb-20 pt-20 xl:pb-[150px] xl:pt-[130px]">
+    <div class="global-container">
+
+        
+        <div class="mb-10 text-center lg:mb-12 jos" 
+             data-jos_animation="fade-up" data-jos_once="1">
+            <div class="mx-auto md:max-w-xs lg:max-w-xl xl:max-w-[746px]">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-black">
+    Cost-effectively build any software
+</h2>
+
+            </div>
+        </div>
+
+        
+       <div class="flex justify-center">
+    <div class="inline-flex rounded-full border-2 border-black overflow-hidden">
+        
+        <button
+            class="tab-button price-button active
+                   px-10 py-4 text-lg font-semibold
+                   bg-black text-white
+                   transition-all duration-300">
+            Monthly
+        </button>
+
+        <button
+            class="tab-button price-button
+                   px-10 py-4 text-lg font-semibold
+                   bg-white text-black
+                   transition-all duration-300 hover:bg-black hover:text-white">
+            Annually
+        </button>
+
+    </div>
+</div>
+
+
+
+        <!-- Pricing Grid -->
+        <ul id="monthly" 
+            class="tab-content grid grid grid-cols-3 gap-6">
+
+            <!-- ITEM 1 -->
+            <li class="group flex flex-col rounded-[10px] bg-colorLinenRuffle 
+                       p-10 transition-all duration-300 hover:bg-black jos"
+                data-jos_animation="flip" data-jos_once="1">
+
+                <h3 class="text-[28px] font-bold text-black group-hover:text-white">
+                    Beginner
+                </h3>
+
+                <span class="text-lg text-black group-hover:text-white">
+                    Up to 10 members
+                </span>
+
+                <div class="my-5 h-[1px] w-full bg-[#DBD6CF]"></div>
+
+                <h4 class="mb-4 text-5xl font-bold text-black group-hover:text-white 
+                           md:text-6xl lg:text-7xl xl:text-[80px]">
+                    $25 <span class="text-lg font-semibold">/Per month</span>
+                </h4>
+
+                <p class="mb-10 text-lg text-black group-hover:text-white">
+                    This is an excellent option for people & small
+                    businesses who are starting out.
+                </p>
+
+                <a class="button mt-auto block rounded-[50px] border-2 border-black 
+                          py-4 text-center text-black transition-all duration-300 
+                          group-hover:border-colorOrangyRed group-hover:text-white 
+                          hover:border-colorOrangyRed"
+                   href="/pricing">
+                    Choose the plan
+                </a>
+            </li>
+
+            <!-- ITEM 2 -->
+            <li class="group flex flex-col rounded-[10px] bg-colorLinenRuffle 
+                       p-10 transition-all duration-300 hover:bg-black jos"
+                data-jos_animation="flip" data-jos_once="1">
+
+                <h3 class="text-[28px] font-bold text-black group-hover:text-white">
+                    Starter
+                </h3>
+
+                <span class="text-lg text-black group-hover:text-white">
+                    Up to 50 members
+                </span>
+
+                <div class="my-5 h-[1px] w-full bg-[#DBD6CF]"></div>
+
+                <h4 class="mb-4 text-5xl font-bold text-black group-hover:text-white 
+                           md:text-6xl lg:text-7xl xl:text-[80px]">
+                    $89 <span class="text-lg font-semibold">/Per month</span>
+                </h4>
+
+                <p class="mb-10 text-lg text-black group-hover:text-white">
+                    This plan is suitable for e-commerce stores
+                    as well as professional blogs.
+                </p>
+
+                <a class="button mt-auto block rounded-[50px] border-2 border-black 
+                          py-4 text-center text-black transition-all duration-300 
+                          group-hover:border-colorOrangyRed group-hover:text-white 
+                          hover:border-colorOrangyRed"
+                   href="/pricing">
+                    Choose the plan
+                </a>
+            </li>
+
+            <!-- ITEM 3 -->
+            <li class="group flex flex-col rounded-[10px] bg-colorLinenRuffle 
+                       p-10 transition-all duration-300 hover:bg-black jos"
+                data-jos_animation="flip" data-jos_once="1">
+
+                <h3 class="text-[28px] font-bold text-black group-hover:text-white">
+                    Pro
+                </h3>
+
+                <span class="text-lg text-black group-hover:text-white">
+                    Up to 100 members
+                </span>
+
+                <div class="my-5 h-[1px] w-full bg-[#DBD6CF]"></div>
+
+                <h4 class="mb-4 text-5xl font-bold text-black group-hover:text-white 
+                           md:text-6xl lg:text-7xl xl:text-[80px]">
+                    $199 <span class="text-lg font-semibold">/Per month</span>
+                </h4>
+
+                <p class="mb-10 text-lg text-black group-hover:text-white">
+                    Ideal for handling complicated projects,
+                    enterprise-level projects, and websites.
+                </p>
+
+                <a class="button mt-auto block rounded-[50px] border-2 border-black 
+                          py-4 text-center text-black transition-all duration-300 
+                          group-hover:border-colorOrangyRed group-hover:text-white 
+                          hover:border-colorOrangyRed"
+                   href="/pricing">
+                    Choose the plan
+                </a>
+            </li>
+
+        </ul>
+
+    </div>
+</section>
+
+
+<section class="py-20 lg:py-32">
+    <div class="mx-auto max-w-[1500px] px-5 grid grid-cols-1 lg:grid-cols-2 gap-16">
+
+        <!-- LEFT TEXT -->
+        <div>
+            <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-black mb-6">
+                Freely ask us for<br>more information
+            </h2>
+
+            <p class="text-lg text-gray-700 leading-[1.6] mb-10">
+                Our AI SaaS solutions can be quickly deployed, enabling users to start
+                benefiting from AI capabilities without lengthy setup and development
+                times in fast-paced industries.
+            </p>
+
+            <a href="#"
+   class="inline-block px-10 py-4 bg-black text-white font-semibold text-lg rounded-full
+          transition-all duration-300 hover:bg-orange-600 hover:-translate-y-1">
+    Ask you questions
+</a>
+
+        </div>
+
+        <!-- RIGHT FAQ -->
+        <div class="space-y-6">
+
+            <!-- FAQ ITEM -->
+            <div class="border-b pb-6 faq-item">
+                <button class="faq-header w-full flex justify-between items-center text-left">
+                    <h3 class="text-2xl font-bold text-black">How do I start AI SaaS?</h3>
+                    <span class="faq-icon text-3xl">×</span>
+                </button>
+
+                <p class="faq-content text-gray-700 text-lg mt-3">
+                    Go to the our official website and require users to create an
+                    account. You'll need to provide some basic information and agree
+                    to our terms and conditions.
+                </p>
+            </div>
+
+            <!-- FAQ ITEM -->
+            <div class="border-b pb-6 faq-item">
+                <button class="faq-header w-full flex justify-between items-center text-left">
+                    <h3 class="text-2xl font-bold text-black">Can I customize AI SaaS solutions?</h3>
+                    <span class="faq-icon text-3xl">+</span>
+                </button>
+                <p class="faq-content text-gray-700 text-lg mt-3 hidden">
+                    Yes! Our platform allows advanced customization to match your
+                    company needs.
+                </p>
+            </div>
+
+            <!-- FAQ ITEM -->
+            <div class="border-b pb-6 faq-item">
+                <button class="faq-header w-full flex justify-between items-center text-left">
+                    <h3 class="text-2xl font-bold text-black">How can AI benefit my business?</h3>
+                    <span class="faq-icon text-3xl">+</span>
+                </button>
+                <p class="faq-content text-gray-700 text-lg mt-3 hidden">
+                    AI increases productivity, reduces cost and automates repetitive tasks.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<section class="bg-black text-white py-20">
+  <div class="max-w-6xl mx-auto text-center">
+    <h2 class="text-5xl font-bold mb-6">Positive feedback</h2>
+    <h3 class="text-5xl font-bold mb-16">from our users</h3>
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto px-6">
+
+    <!-- Card 1 -->
+    <div class="bg-[#0f0f0f] border border-gray-800 p-8 rounded-xl">
+      <div class="text-red-500 text-2xl mb-4">★★★★★</div>
+      <p class="text-gray-300 mb-6">
+        “This AI SaaS tool has revolutionized the way we process and analyze data.
+        This is a game-changer for our business.”
+      </p>
+      <div class="flex items-center gap-3">
+        <img src="/Azzle/img/testimonial-img-1.jpg" class="w-12 h-12 rounded-full" />
+        <div>
+          <p class="font-semibold">Max Weber</p>
+          <p class="text-sm text-gray-400">HR Manager</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="bg-[#0f0f0f] border border-gray-800 p-8 rounded-xl">
+      <div class="text-red-500 text-2xl mb-4">★★★★★</div>
+      <p class="text-gray-300 mb-6">
+        "It answers immediately, and we've seen a significant reduction in response time.
+        Our customers love it and so do we!"
+      </p>
+      <div class="flex items-center gap-3">
+        <img src="/Azzle/img/testimonial-img-2.jpg" class="w-12 h-12 rounded-full" />
+        <div>
+          <p class="font-semibold">Douglas Smith</p>
+          <p class="text-sm text-gray-400">Businessman</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="bg-[#0f0f0f] border border-gray-800 p-8 rounded-xl">
+      <div class="text-red-500 text-2xl mb-4">★★★★★</div>
+      <p class="text-gray-300 mb-6">
+        "It is accurate, fast and supports multiple languages. It is a must for any
+        international business success."
+      </p>
+      <div class="flex items-center gap-3">
+        <img src="/Azzle/img/testimonial-img-3.jpg" class="w-12 h-12 rounded-full" />
+        <div>
+          <p class="font-semibold">Abraham Maslo</p>
+          <p class="text-sm text-gray-400">Founder @ Marketing Company</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="bg-[#0f0f0f] border border-gray-800 p-8 rounded-xl">
+      <div class="text-red-500 text-2xl mb-4">★★★★★</div>
+      <p class="text-gray-300 mb-6">
+        "Security is a top concern for us, and AI SaaS takes it seriously.
+        It's a reassuring layer of protection for our organization."
+      </p>
+      <div class="flex items-center gap-3">
+        <img src="/Azzle/img/testimonial-img-4.jpg" class="w-12 h-12 rounded-full" />
+        <div>
+          <p class="font-semibold">Jack Fayol</p>
+          <p class="text-sm text-gray-400">HR Manager</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 5 -->
+    <div class="bg-[#0f0f0f] border border-gray-800 p-8 rounded-xl">
+      <div class="text-red-500 text-2xl mb-4">★★★★★</div>
+      <p class="text-gray-300 mb-6">
+        "We were concerned about integrating their APIs; they were well documented,
+        and their support team was super cool."
+      </p>
+      <div class="flex items-center gap-3">
+        <img src="/Azzle/img/testimonial-img-5.jpg" class="w-12 h-12 rounded-full" />
+        <div>
+          <p class="font-semibold">Karen Lynn</p>
+          <p class="text-sm text-gray-400">Software Engineer</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 6 -->
+    <div class="bg-[#0f0f0f] border border-gray-800 p-8 rounded-xl">
+      <div class="text-red-500 text-2xl mb-4">★★★★★</div>
+      <p class="text-gray-300 mb-6">
+        "The return on investment has exceeded our expectations.
+        It's an investment in the future of our business."
+      </p>
+      <div class="flex items-center gap-3">
+        <img src="/Azzle/img/testimonial-img-6.jpg  " class="w-12 h-12 rounded-full" />
+        <div>
+          <p class="font-semibold">Henry Ochi</p>
+          <p class="text-sm text-gray-400">Bank Manager</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<footer class="bg-[#ECE5DC] text-black py-20">
+  <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+
+    <!-- Column 1 -->
+    <div>
+      <h3 class="text-xl font-bold mb-3">✱ Azzle</h3>
+      <p class="text-gray-700 text-sm leading-relaxed">
+        Our mission is to harness the power of AI to solve complex business challenges &
+        decision-makers with data-driven insights, and enhance user experiences across digital platforms.
+      </p>
+
+      <p class="mt-4 text-gray-700 text-sm">
+        Website: www.example.com
+      </p>
+    </div>
+
+    <!-- Column 2 -->
+    <div>
+      <h4 class="font-semibold text-base mb-3">Primary Pages</h4>
+      <ul class="space-y-2 text-gray-700 text-sm">
+        <li><a href="#" class="hover:underline">Home</a></li>
+        <li><a href="#" class="hover:underline">About Us</a></li>
+        <li><a href="#" class="hover:underline">Services</a></li>
+        <li><a href="#" class="hover:underline">Pricing</a></li>
+        <li><a href="#" class="hover:underline">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Column 3 -->
+    <div>
+      <h4 class="font-semibold text-base mb-3">Utility Pages</h4>
+      <ul class="space-y-2 text-gray-700 text-sm">
+        <li><a href="#" class="hover:underline">Signup</a></li>
+        <li><a href="#" class="hover:underline">Login</a></li>
+        <li><a href="#" class="hover:underline">404 Not Found</a></li>
+        <li><a href="#" class="hover:underline">Password Reset</a></li>
+      </ul>
+    </div>
+
+    <!-- Column 4 -->
+    <div>
+      <h4 class="font-semibold text-base mb-3">Subscribe To Our Newsletter</h4>
+
+      <div class="flex items-center bg-white rounded-full px-4 py-2 border w-full max-w-xs">
+        <input 
+          type="email" 
+          placeholder="Enter your email"
+          class="flex-1 bg-transparent outline-none text-gray-700 text-sm"
+        >
+        <button class="bg-black text-white rounded-full w-9 h-9 flex items-center justify-center text-lg leading-none">
+          <span class="translate-x-[1px]">➜</span>
+        </button>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Copyright -->
+  <div class="border-t mt-16 pt-6 text-center text-gray-700 text-sm">
+    © Copyright 2023, All Rights Reserved by Mthemes
+  </div>
+</footer>
+
+
+
+
+<script>
+    const tabButtons = document.querySelectorAll(".tab-button");
+    const tabContents = document.querySelectorAll(".tab-content");
+
+    tabButtons.forEach(button => {
+        button.addEventListener("click", () => {
+
+            // Xóa active
+            tabButtons.forEach(btn => btn.classList.remove("active"));
+
+            // Thêm active
+            button.classList.add("active");
+
+            // Ẩn/hiện tab
+            const tab = button.getAttribute("data-tab");
+
+            tabContents.forEach(content => {
+                if (content.id === tab) {
+                    content.classList.remove("hidden");
+                } else {
+                    content.classList.add("hidden");
+                }
+            });
+        });
+    });
+</script>
+
+
+
+</body>
+
+</html>
